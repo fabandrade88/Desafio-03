@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-base-white: #ffffff;
+  --color-base-green: #387E96;
+  --color-base-gray: #F4FCFF;
+  --color-base-fonts: #202024;
+
+}
+
+body {
+  width: 43rem;
+  height: 19.45rem;
+  padding: auto;
+  margin: auto;
+}
+
+header {
+  background-color: var(--color-base-green);
+  height: 7.2rem;
+}
+
+nav {
+  display: flex;
+  gap: 2.6rem;
+  align-items: center;
+}
+
+.nav-main {
+  padding: 1.5rem 2.8rem 1.5rem;
+}
+
+nav .logo {
+background-color: var(--color-base-gray);
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  padding: .9rem .8rem .9rem;
+}
+
+.avatar {
+  width: 4.2rem;
+  height: 4.2rem;
+}
+.input-wrapper label{
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
