@@ -79,9 +79,27 @@ background-color: var(--color-base-gray);
  color: var(--color-base-white);
 }
 
-main img {
+ main img {
   width: 43rem;
   height: 21.9rem;
+}
+
+article {
+  padding: 3.1rem 2.3rem;
+}
+
+article h1 {
+  padding-bottom: .8rem;
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+article p {
+  padding-top: 3.1rem;
+  width: 38.2rem;
+  height: 75.4rem;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 
 .buttons-like {
@@ -94,8 +112,17 @@ main img {
   height: 4rem;
 }
 
+
 footer {
   margin-top: 3.9rem;
   background-color: var(--color-base-green);
   height: 6.4rem;
+  margin-bottom: 0;
+}
+
+footer p {
+  font-size: 1.6rem;
+  color: var(--color-base-white);
+  text-align: center;
+  padding: 2.7rem 1.6rem 2.7rem;
 }
